@@ -1,14 +1,13 @@
 .nav-container{
     width: 80%;
+    max-width: 1010px;
     margin: auto;
 }
-
 nav{
     height: 100px;
     border: 1px solid rgb(209, 209, 209);
     border-radius: 30px;
     width: 80%;
-    max-width: 810px;
     margin: auto;
     align-items: center;
     padding: 5px 10px;
@@ -33,6 +32,8 @@ nav{
     svg{margin-bottom: 5px;}
     &:active{
         background: rgb(32, 32, 114);
+        color: rgb(135, 135, 135);
+        svg{color: rgb(135, 135, 135);}
     }
 }
 .winter{
