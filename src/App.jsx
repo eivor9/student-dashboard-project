@@ -1,9 +1,12 @@
+import Header from "./Header";
+import NavContainer from "./NavContainer";
 
 function App() {
   return (
-    <div>
-      <h1>Student Dashboard</h1>
-    </div>
+    <>
+      <Header/>
+      <NavContainer/>
+    </>
   );
 }
 
