@@ -1,0 +1,15 @@
+main{
+    margin: auto;
+    padding: 50px;
+    max-width: 1220px;
+    position: relative;
+    left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media (max-width: 750px) {
+    main{
+        position: static;
+    }
+}
