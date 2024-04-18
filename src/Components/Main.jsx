@@ -1,8 +1,9 @@
 import pfp from "./pfp.jpg"
-import "./styles/Main.css"
+import "../styles/Main.css"
+import students from "../data/data.json"
+import StudentCard from "./StudentCard";
 
 export default function Main(){
-
     let cards = [];
     for(let i = 0; i < 100; i++){
         cards.push(
@@ -18,7 +19,11 @@ export default function Main(){
 
     return (
         <main>
-            {cards}
+            {
+                students.map(student =>{
+                    return <StudentCard key={student.id} student={student}/>
+                })
+            }
         </main>
     );
 }

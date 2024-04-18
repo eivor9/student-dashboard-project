@@ -1,0 +1,79 @@
+.pic{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.card{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 255px;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+    color: rgba(0, 0, 0, 0.4);
+    &:hover{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+}
+.name, .email, .dob{
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.name{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 18px;
+    margin-top: 5px;
+}
+.more{
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    cursor: pointer;
+}
+@media (max-width: 750px) {
+    .card{
+        display: block;
+        margin: auto;
+        margin-bottom: 30px;
+        width: 330px;
+    }
+    .name, .email, .dob{
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+    .name{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .pic{
+        height: 100px;
+        width: 100px;
+    }
+    main{
+        position: static;
+    }
+}
+
+.more-pic{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.contact{
+    display: flex;
+    gap: 5px;
+    line-height: 20px;
+    align-items: center;
+    overflow: hidden;
+}
+.more-contact{
+    color: rgba(0, 0, 0, 0.8);
+    span{
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 14px;
+    }
+}

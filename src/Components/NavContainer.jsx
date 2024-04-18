@@ -1,5 +1,5 @@
 import PursuitLogo from "./PursuitLogo";
-import "./styles/NavContainer.css"
+import "../styles/NavContainer.css"
 
 export default function NavContainer(){
     return (

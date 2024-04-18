@@ -1,5 +1,5 @@
 import PursuitLogo from "./PursuitLogo";
-import "./styles/Header.css"
+import "../styles/Header.css"
 
 export default function Header() {
     return (
