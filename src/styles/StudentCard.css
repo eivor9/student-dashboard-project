@@ -77,3 +77,19 @@
         font-size: 14px;
     }
 }
+.stats{
+    margin-top: 5px;
+    display: flex;
+    color: rgba(0, 0, 0, 0.8);
+    gap: 5px;
+}
+.stats section h2{
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.stats section p{
+    font-size: 13px;
+    margin-bottom: 3px;
+}

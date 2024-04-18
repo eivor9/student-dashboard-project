@@ -4,6 +4,7 @@ import students from "../data/data.json"
 import StudentCard from "./StudentCard";
 
 export default function Main(){
+    console.log(students[0]);
     let cards = [];
     for(let i = 0; i < 100; i++){
         cards.push(
