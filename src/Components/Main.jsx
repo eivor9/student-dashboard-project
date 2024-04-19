@@ -6,6 +6,8 @@ import students from "../data/data.json"
 
 export default function Main(){
 
+    console.log(students[0])
+
     const [code, changeCode] = useState("20");
     let filteredStudents = students.filter(student => student.cohort.cohortCode.includes(code));
 

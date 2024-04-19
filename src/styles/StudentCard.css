@@ -104,3 +104,44 @@
     display: flex;
     align-items: center;
 }
+.on1{
+    margin-top: 20px;
+}
+.on1 h2{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    margin-bottom: 10px;
+}
+form input{
+    display: block;
+    margin-bottom: 10px;
+}
+label{
+    display: block;
+    color: rgba(0, 0, 0, 0.6);
+}
+ul p{
+    margin-top: 5px;
+    text-align: right;
+}
+li{
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 15px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.less{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+#comment{
+    display: inline-block;
+}
+.submit{
+    background: none;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
